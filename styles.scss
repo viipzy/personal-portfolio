@@ -48,11 +48,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 2rem;
     color: white;
     width: auto;
     background: $primary;
     margin: 0px 0px 3rem 0px;
+
+    & h1{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
     
   }
 
